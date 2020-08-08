@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+}
+
+.container {
+  margin-bottom: 80px;
+  display: flex;
+  flex-wrap: wrap;
+}

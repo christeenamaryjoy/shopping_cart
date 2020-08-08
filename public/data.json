@@ -1,0 +1,135 @@
+
+ 
+[
+    {
+        "brand_name": "Milk Food",
+        "product_name": "Milk Food Rich Desi Danedar Ghee (Carton)",
+        "quantity": "1 L",
+        "price": 408,
+        "mrp": 498,
+        "image_url": "/images/ghee1.jpeg",
+        "offer_text": "18%"
+    },
+    {
+        "brand_name": "Grofers Mother's Choice",
+        "product_name": "Grofers Mother's Choice Desi Ghee",
+        "quantity": "1 L",
+        "price": 414,
+        "mrp": 450,
+        "image_url": "/images/ghee4.jpeg",
+        "offer_text": "8%"
+    },
+    {
+        "brand_name": "Amul",
+        "product_name": "Amul Pure Ghee",
+        "quantity": "1 L",
+        "price": 439,
+        "mrp": 460,
+        "image_url": "/images/ghee2.jpeg",
+        "offer_text": "8%"
+    },
+    {
+        "brand_name": "Pathanjali",
+        "product_name": "Pathanjali Ayurvedik Ghee",
+        "quantity": "1 L",
+        "price": 315,
+        "mrp": 350,
+        "image_url": "/images/ghee3.jpeg",
+        "offer_text": "10%"
+    },
+     {
+        "brand_name": "Madhusudhanan",
+        "product_name": "Madhusudhanan Desi Ghee",
+        "quantity": "1 L",
+        "price": 437,
+        "mrp": 460,
+        "image_url": "/images/ghee5.jpeg",
+        "offer_text": "5%"
+    },
+    {
+        "brand_name": "Govardhan",
+        "product_name": "Govardhan Ghee",
+        "quantity": "1 L",
+        "price": 439,
+        "mrp": 460,
+        "image_url": "/images/ghee6.jpeg",
+        "offer_text": "8%"
+    },
+    {
+        "brand_name": "Sri Krisha",
+        "product_name": "Sri Krishna Pure Ghee",
+        "quantity": "1 L",
+        "price": 470,
+        "mrp": 500,
+        "image_url": "/images/ghee7.jpeg",
+        "offer_text": "6%"
+    },
+   
+   
+   
+    {
+        "brand_name": "Sagar",
+        "product_name": "Amul Pure Ghee",
+        "quantity": "1 L",
+        "price": 315,
+        "mrp": 350,
+        "image_url": "/images/ghee8.jpeg",
+        "offer_text": "10%"
+    },
+    {
+        "brand_name": "GPB",
+        "product_name": "GPB Pure Ghee",
+        "quantity": "1 L",
+        "price": 439,
+        "mrp": 460,
+        "image_url": "/images/ghee3.jpeg",
+        "offer_text": "8%"
+    },
+    {
+        "brand_name": "Amul",
+        "product_name": "Amul Pure Ghee",
+        "quantity": "1 L",
+        "price": 361,
+        "mrp": 380,
+        "image_url": "/images/ghee2.jpeg",
+        "offer_text": "5%"
+    },
+
+    {
+        "brand_name": "Grofers Mother's Choice",
+        "product_name": "Grofers Mother's Choice Desi Ghee",
+        "quantity": "1 L",
+        "price": 414,
+        "mrp": 450,
+        "image_url": "/images/ghee4.jpeg",
+        "offer_text": "8%"
+    },
+    {
+        "brand_name": "Madhusudhanan",
+        "product_name": "Madhusudhanan Desi Ghee",
+        "quantity": "1 L",
+        "price": 369,
+        "mrp": 450,
+        "image_url": "/images/ghee5.jpeg",
+        "offer_text": "18%"
+    },
+    {
+        "brand_name": "Govardhan",
+        "product_name": "Govardhan Ghee",
+        "quantity": "1 L",
+        "price": 391,
+        "mrp": 460,
+        "image_url": "/images/ghee6.jpeg",
+        "offer_text": "15%"
+    },
+    {
+        "brand_name": "Sri Krisha",
+        "product_name": "Sri Krishna Pure Ghee",
+        "quantity": "1 L",
+        "price": 360,
+        "mrp": 400,
+        "image_url": "/images/ghee7.jpeg",
+        "offer_text": "10%"
+    }
+   
+]
