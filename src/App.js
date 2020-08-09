@@ -49,8 +49,9 @@ class App extends React.Component {
       <div className="App">
         <Container onCartChange={this.cartChange} />
         <Footer quantity={quantity} total={total} checkOut={this.checkOut} />
-        <PopUp total={total} show={popUpShow} closePopUp={this.closePopUp} message={popUpMessage} />
-      </div>
+        {popUpShow &&
+          <PopUp total={total} closePopUp={this.closePopUp} message={popUpMessage} />
+        }      </div>
     );
   }
 }
