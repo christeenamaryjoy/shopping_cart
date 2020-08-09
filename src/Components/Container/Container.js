@@ -1,22 +1,20 @@
 import React from 'react'
 import ListItem from '../ListItem/ListItem.js'
+
 export default class Container extends React.Component {
 
-    constructor() {
-        super()
-        this.state = {
-            datalist: [],
-        }
+    state = {
+        datalist: []
     }
 
     componentDidMount() {
         this.getData();
-
     }
 
+
+    // get data from local json
     getData = () => {
         let promise = new Promise(function (resolve, reject) {
-            setTimeout(() => resolve("done!"), 1000);
             fetch('./data.json').then(response => resolve(response.json()))
         });
 
@@ -29,6 +27,7 @@ export default class Container extends React.Component {
 
     }
 
+    // on add to cart/increment add quantity 
     addtoCart = (index) => {
         const { datalist } = this.state
         let data = datalist[index]
@@ -37,6 +36,8 @@ export default class Container extends React.Component {
         this.props.onCartChange(true, data.price);
 
     }
+
+    // on decrement rreduce quantity 
     decrement = (index) => {
         const { datalist } = this.state
         let data = datalist[index]
@@ -54,7 +55,7 @@ export default class Container extends React.Component {
             <div className='container'>
                 {datalist.map((data, index) => {
                     return (
-                        <ListItem key={index} data={data} index={index} addtoCart={this.addtoCart} decrement={this.decrement} />)
+                        <ListItem key={index} data={data} addtoCart={() => this.addtoCart(index)} decrement={() => this.decrement(index)} />)
                 })
                 }
             </div>

@@ -34,19 +34,17 @@
     font-weight: bold;
 }
 
-.brand_name {
-    font-weight: bold;
-    color: green;
-    font-size: 22px;
-}
 
-.offer_price {
+.sub_container p {
+    margin: 10px 0;
+    max-width: 300px;
     font-size: 18px;
 }
 
-.right_coloumn p {
-    margin: 10px 0;
-    max-width: 300px;
+.brand_name {
+    font-weight: bold;
+    color: green;
+    font-size: 22px !important;
 }
 
 .button {

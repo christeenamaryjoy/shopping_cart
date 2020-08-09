@@ -7,6 +7,10 @@ class App extends React.Component {
 
   state = { quantity: 0, total: 0, popUpMessage: '' }
 
+
+  /* on Add to cart or increment/decrement button click quantity and total value change
+    values are upadting in this componet state and pass those to whole components as props
+  */
   cartChange = (isIncrement, price) => {
     const { total, quantity } = this.state
     let quantityChange = 0;
@@ -22,7 +26,9 @@ class App extends React.Component {
     this.setState({ quantity: quantityChange, total: totalChange })
   }
 
-
+  /* on Check out click show a popup , if the cart is empty will show a message to add items
+     else show a transaction successfull message with total price
+   */
   checkOut = () => {
     let popUpMessage = ''
     if (this.state.quantity > 0) {
